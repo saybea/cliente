@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Formulário de Oportunidade Salesforce</title>
+    <link rel="stylesheet" type="text/css" href="cliente css.css">
+</head>
+<body>
+	<h2>Formulário de Oportunidade Salesforce</h2>
+	<form>
+		<label for="particular">Particular:</label>
+		<input type="checkbox" id="particular" name="particular"><br>
+
+		<label for="nome-oportunidade">Nome da Oportunidade:</label>
+		<input type="text" id="nome-oportunidade" name="nome-oportunidade"><br>
+
+		<label for="valor">Valor:</label>
+		<input type="number" id="valor" name="valor"><br>
+
+		<label for="fase">Fase:</label>
+		<select id="fase" name="fase">
+			<option value="Prospecting">Prospecting</option>
+			<option value="Qualification">Qualification</option>
+			<option value="Needs Analysis">Needs Analysis</option>
+			<option value="Value Proposition">Value Proposition</option>
+			<option value="Id. Decision Makers">Id. Decision Makers</option>
+			<option value="Perception Analysis">Perception Analysis</option>
+			<option value="Proposal/Price Quote">Proposal/Price Quote</option>
+			<option value="Negotiation/Review">Negotiation/Review</option>
+			<option value="Closed Won">Closed Won</option>
+			<option value="Closed Lost">Closed Lost</option>
+		</select><br>
+
+		<label for="tipo">Tipo:</label>
+		<select id="tipo" name="tipo">
+			<option value="New Business">New Business</option>
+			<option value="Existing Business">Existing Business</option>
+			<option value="Renewal">Renewal</option>
+			<option value="Up-sell">Up-sell</option>
+			<option value="Cross-sell">Cross-sell</option>
+			<option value="Partner">Partner</option>
+			<option value="Other">Other</option>
+		</select><br>
+
+		<input type="submit" value="Salvar">
+	</form>
+</body>
+</html>
