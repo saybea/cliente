@@ -1,0 +1,46 @@
+/* Estilo do formulário */
+form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 50px;
+}
+
+/* Estilo dos rótulos */
+label {
+  font-weight: bold;
+  margin-right: 10px;
+}
+
+/* Estilo dos campos de entrada */
+input[type="text"], input[type="number"], select {
+  padding: 5px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  margin-bottom: 20px;
+  width: 250px;
+}
+
+/* Estilo do checkbox */
+input[type="checkbox"] {
+  margin-top: 10px;
+}
+
+/* Estilo do botão de envio */
+input[type="submit"] {
+  padding: 10px 20px;
+  border-radius: 5px;
+  border: none;
+  background-color: #1E90FF;
+  color: white;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+/* Estilo da página */
+body {
+  font-family: Arial, sans-serif;
+  background-color: #F5F5F5;
+  color: #333;
+  text-align: center;
+}
